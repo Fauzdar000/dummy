@@ -1,0 +1,70 @@
+
+/* Container styling */
+.nav-container {
+
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+  background: linear-gradient(145deg,#989a96, #eef0f2); 
+  padding: 20px 40px;
+  border-radius:999px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  color: #3c3f58;
+   box-shadow: 0 2px 9px rgba(207, 16, 184, 0.5);
+   /* position: sticky; */
+  
+  position: sticky;
+  top: 5px;
+  z-index: 1000;
+/* margin-bottom: 10px; */
+
+
+}
+
+/* Logo placeholder */
+.logo img {
+  width: 100px;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Navigation links */
+.links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Each nav item */
+.links li {
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  border-radius: 999px; /* pill shape */
+  transition: all 0.3s ease;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 2px 9px rgba(0, 0, 0, .5);
+  backdrop-filter: blur(6px);
+}
+
+/* Hover effect */
+.links li:hover {
+  /* border-left: 2px solid #7ed6df;
+  border-right: 2px solid #70a1ff;
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #40739e; */
+  color: #1c1c1c;
+  scale: 1.1;
+     box-shadow: 0 2px 9px rgba(165, 24, 149, 0.5);
+}
+
+/* Remove underline on links */
+.links a {
+  text-decoration: none;
+  color: inherit;
+}
